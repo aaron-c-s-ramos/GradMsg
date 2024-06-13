@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0"/>
+    <meta property="og:title" content="Graduation Message"/>
+    <meta name="keywords" content="Congrats, Graduate, Bubby, Message">
+    <meta name="author" content="Maybe">
+    <title>Graduation Message</title>
+    <link rel="icon" type="image/x-icon" sizes="256x256" href="favicon.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="style.css" title="...">
+  </head>
+  <body class="vh-100 vw-100 bg-danger-subtle bg-gradient">
+    <main class="container-fluid">
+      <button type="button" role="button" id="btnMain" class="btn btn-lg btn-danger position-absolute top-50 start-50 translate-middle rounded-pill" style="--bs-btn-padding-y: 3.25rem; --bs-btn-padding-x: 3.5rem; --bs-btn-font-size: 3.75rem;" data-bs-toggle="modal" data-bs-target="#msgModal">Click Me!</button>
+      <div id="forScreenshot">
+        <div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="msgModal" tabindex="-1" aria-labelledby="msgModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center bg-secondary-subtle bg-gradient">
+                  <h1 class="modal-title h2" id="msgModalLabel">Congrats on Graduating&#127891;!</h1>
+                </div>
+                <div class="modal-body fs-2">
+                  This is it! This is finally it! You're finally a bonafide Graduate&#127891;, bubbyyy! &#129321; Congrats on finally Graduating! &#129395; You're now officially an unemployed adult naaa &#128518; Kidding aside, I'm very happy for you for this big milestone that you've earned, maybe &#128522; You're no longer a student but a real adult graduate &#128105; &#8205; &#127891; I'm sorry that I'm not there with you to celebrate this big achievement &#129401; but please know that I'm always here, supporting you from behind the scenes, and celebrating all your wins &#129392; I love you from the bottom of my heart, my bubby! Congrats on being a Graduate! &#128536;
+                </div>
+              <div class="modal-footer justify-content-evenly bg-secondary-subtle bg-gradient">
+                <button type="button" role="button" class="btn btn-lg btn-danger mt-3 mb-3 col-md-3" data-bs-dismiss="modal" aria-label="Close" id="btnClose">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.js" defer></script>
+  </body>
+</html>
